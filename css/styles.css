@@ -103,6 +103,13 @@
 }
 
 @media (min-width: 768px) {
+  .main {
+    margin-block-start: 60px;
+  }
+  .heading {
+    font-size: 1.8rem;
+    margin-block-end: 16px;
+  }
   .paragraph {
     width: 38%;
     margin-left: auto;

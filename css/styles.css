@@ -20,8 +20,65 @@
   src: url("../fonts/poppins-v24-latin-600.woff2") format("woff2");
 }
 .main {
-  width: 90%;
+  width: 85%;
   margin: auto;
+  font-family: Poppins, Arial;
+}
+
+.heading {
+  font-weight: 200;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.heading__second {
+  font-weight: 600;
+  display: block;
+}
+
+.paragraph {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container, .container__divider {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.card {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px hsl(212, 20%, 64%);
+  padding: 6px 20px 12px 20px;
+}
+
+.card--cyan {
+  border-top: solid 4px hsl(180, 62%, 55%);
+}
+
+.card--red {
+  border-top: solid 4px hsl(0, 78%, 62%);
+}
+
+.card--orange {
+  border-top: solid 4px hsl(34, 97%, 64%);
+}
+
+.card--blue {
+  border-top: solid 4px hsl(212, 86%, 64%);
+}
+
+.card__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card__text {
+  font-size: 0.7rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=styles.css.map */
